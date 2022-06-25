@@ -1,0 +1,165 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    
+}
+
+.nav {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 1rem;
+    padding: .75rem;
+    border-radius: 25px;
+    transition: .4s;
+    border: 2px transparent solid;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li:hover {
+    cursor: pointer;
+    border: 2px black solid;
+    
+    
+}
+
+.Section {
+    padding: 3rem;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    background-color: white;
+    align-content: center;
+}
+
+.Projects {
+    padding: 3rem;
+    height: fit-content;
+    display: block;
+    justify-content: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    background-color: white;
+    align-content: center;
+}
+
+.project-list {
+    display: flex;
+    overflow-x: scroll;
+    background: #f8f8f8;
+    padding-right: 1rem;
+    border-radius: 25px;
+    height: fit-content;
+
+    padding: 1rem;
+}
+
+.project {
+    margin-right: 2rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    transition: .4s;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    
+}
+
+.project:hover {
+    background-color: #DBF4FF;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+h1 {
+    margin-bottom: .5rem;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 400;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+}
+
+.img {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+img {
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: .4s;
+}
+
+
+.text {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+button {
+    border: none; 
+    margin-top: 1rem;
+    padding: .75rem;
+    border-radius: 25px;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem ;
+    border: 1px transparent solid;
+}
+
+button:hover {
+    background-color: transparent;
+    color: black;
+    transition: .4s;
+    cursor: pointer;
+    border: black solid
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.block {
+    display: block;
+}
+
+p {
+    margin-bottom: .5rem;
+}
+
