@@ -81,8 +81,6 @@ input {
     height: fit-content;
     display: flex;
     justify-content: center;
-    padding-top: auto;
-    padding-bottom: auto;
     background-color: white;
     align-content: center;
 }
@@ -195,3 +193,46 @@ p {
     margin-bottom: .5rem;
 }
 
+@media  (max-width: 600px) {
+    .Section {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .text {
+        
+        width: 100%;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .Section {
+        padding: 1rem;
+        max-width: 100vw;
+    }
+
+    input {
+        display: none;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    .nav {
+        display: none;
+    }
+}
